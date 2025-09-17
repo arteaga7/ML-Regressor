@@ -32,11 +32,17 @@ Third, the training and validation of the performance of 5 different ML algorith
 
 • Algorithm 8: **CatBoostRegressor (CatBoost library)**.
 
-Finally, the best algorithim is selected for this particular dataset.
+Finally, the best algorithim is selected for this particular dataset to make predictions in production.
 
-🛠️**Libraries used**: Pandas, Matplotlib, Seaborn, NumPy, SciPy, Scikit-learn, xgboost, lightgbm, catboost.
+🛠️**Libraries used**: Pandas, Matplotlib, Seaborn, NumPy, SciPy, Scikit-learn, XGBoost, LightGBM, CatBoost.
 
-The Jupyter Notebook is in notebooks/regressor.ipynb.
+- In folder "notebooks" is the Jupyter Notebook "regressor.ipynb".
+
+- In folder "data/raw" is the raw dataset.
+
+- In folder "data/processed" is the processed data.
+
+- In folder "models" are the scaler, label encoder and the trained model.
 
 ## 🚀 Installation
 1. Clone this repository:
